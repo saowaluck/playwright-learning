@@ -1,10 +1,10 @@
 import {User} from "../interfaces/user";
 
 export const users: User = {
-    displayName: "poppy",
+    displayName: "xxxxxx",
     credential: {
-        username: "poppy",
-        password: "123456"
+        username: "xxxxxxx",
+        password: "xxxxxxxx"
     }
 }
 
@@ -12,21 +12,21 @@ export const invalidUser: User[] = [{
     displayName: "other",
     credential: {
         username: "other",
-        password: "123456"
+        password: "xxxxxxxx"
     }
 },
     {
         displayName: "9999 Account",
         credential: {
             username: "99999Account",
-            password: "123456"
+            password: "xxxxxxxx"
         }
-    }]
+    },]
 
 export const suspendedUser: User[] = [{
     displayName: "jomyut",
     credential: {
         username: "jomyut",
-        password: "123456"
+        password: "xxxxxxxx"
     }
 }]
